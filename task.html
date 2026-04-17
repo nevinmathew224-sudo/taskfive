@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind Full Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+
+  <!-- 🔹 Navbar -->
+  <nav class="bg-white shadow-md">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-indigo-600">MySite</h1>
+      <div class="space-x-6 hidden md:flex">
+        <a href="#" class="text-gray-600 hover:text-indigo-500">Home</a>
+        <a href="#" class="text-gray-600 hover:text-indigo-500">Features</a>
+        <a href="#" class="text-gray-600 hover:text-indigo-500">Pricing</a>
+      </div>
+      <button class="bg-indigo-500 text-white px-4 py-2 rounded-lg hover:bg-indigo-600">
+        Login
+      </button>
+    </div>
+  </nav>
+
+  <!-- 🔹 Hero Section -->
+  <section class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white text-center py-20">
+    <h1 class="text-4xl font-bold mb-4">Build Modern Websites 🚀</h1>
+    <p class="mb-6">Simple, fast and beautiful UI with Tailwind CSS</p>
+    <button class="bg-white text-indigo-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-200">
+      Get Started
+    </button>
+  </section>
+
+  <!-- 🔹 Features -->
+  <section class="py-16 max-w-6xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-10">Features</h2>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-xl shadow">
+        <h3 class="font-bold text-lg mb-2">Fast</h3>
+        <p class="text-gray-600">Quick development using utility classes.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow">
+        <h3 class="font-bold text-lg mb-2">Responsive</h3>
+        <p class="text-gray-600">Works on all devices easily.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow">
+        <h3 class="font-bold text-lg mb-2">Customizable</h3>
+        <p class="text-gray-600">Easily change styles as needed.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🔹 Pricing -->
+  <section class="bg-gray-50 py-16">
+    <h2 class="text-3xl font-bold text-center mb-10">Pricing</h2>
+
+    <div class="flex flex-col md:flex-row justify-center gap-6 px-6">
+
+      <div class="bg-white p-6 rounded-xl shadow w-80 text-center">
+        <h3 class="text-xl font-bold mb-2">Basic</h3>
+        <p class="text-gray-500 mb-4">499/monthly subscription</p>
+        <button class="bg-indigo-500 text-white px-4 py-2 rounded-lg">Choose</button>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow w-80 text-center border-2 border-indigo-500">
+        <h3 class="text-xl font-bold mb-2">Pro</h3>
+        <p class="text-gray-500 mb-4">999/Annual subscription </p>
+        <button class="bg-indigo-500 text-white px-4 py-2 rounded-lg">Choose</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 🔹 Dashboard Stats -->
+  <section class="py-16 max-w-6xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-10">Dashboard</h2>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-xl shadow">
+        <h3 class="text-gray-500">Users</h3>
+        <p class="text-2xl font-bold">1,245</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow">
+        <h3 class="text-gray-500">Revenue</h3>
+        <p class="text-2xl font-bold">8,320</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow">
+        <h3 class="text-gray-500">Orders</h3>
+        <p class="text-2xl font-bold">320</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🔹 Footer -->
+  <footer class="bg-gray-900 text-white text-center py-6">
+    <p>© 2026 MyWebsite. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
